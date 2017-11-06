@@ -24,6 +24,7 @@ export class HomePage {
   animations: string[] = [];
   gradient: boolean = false;
   realCurrent: number = 0;
+  rate:number;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
